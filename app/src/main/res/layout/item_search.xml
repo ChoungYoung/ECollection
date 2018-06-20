@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="@dimen/base_margin"
+    android:paddingBottom="@dimen/base_margin">
+    <ImageView
+        android:id="@+id/iv_arr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:background="@drawable/forward"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+    <TextView
+        android:id="@+id/tv_shop_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@id/iv_arr"
+        android:layout_toStartOf="@id/iv_arr"
+        android:textSize="@dimen/text_size_large"
+        android:textColor="@color/text_color_black"
+        android:maxLines="1"/>
+    <TextView
+        android:id="@+id/tv_order_time"
+        android:layout_marginTop="@dimen/small_margin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_shop_name"
+        android:textColor="@color/text_gray"
+        android:textSize="@dimen/text_size_normal"
+        android:text="@string/order_time_"/>
+    <TextView
+        android:id="@+id/tv_order_amount"
+        android:layout_marginTop="@dimen/small_margin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/base_margin"
+        android:layout_marginStart="@dimen/base_margin"
+        android:layout_toRightOf="@id/tv_order_time"
+        android:layout_toEndOf="@id/tv_order_time"
+        android:layout_below="@id/tv_shop_name"
+        android:textColor="@color/text_gray"
+        android:textSize="@dimen/text_size_normal"
+        android:text="@string/order_amount"/>
+</RelativeLayout>
+-->
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="@dimen/base_margin"
+    android:paddingBottom="@dimen/base_margin">
+    <TextView
+        android:id="@+id/tv_order_amount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="@dimen/base_margin"
+        android:layout_marginStart="@dimen/base_margin"
+        android:textColor="@color/text_color_black"
+        android:textSize="@dimen/text_size_large"
+        android:text="@string/order_amount"/>
+    <TextView
+        android:id="@+id/tv_shop_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@id/tv_order_amount"
+        android:layout_toStartOf="@id/tv_order_amount"
+        android:textSize="@dimen/text_size_large"
+        android:textColor="@color/text_color_dark_blue"
+        android:text="这是点名啊zheshidianmingzheshi diandmingadshjkskxcx x "
+        android:ellipsize="end"
+        android:maxLines="1"/>
+
+    <ImageView
+        android:id="@+id/iv_arr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/small_margin"
+        android:background="@drawable/forward"
+        android:layout_below="@id/tv_order_amount"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+    <TextView
+        android:id="@+id/tv_order_time"
+        android:layout_marginTop="@dimen/small_margin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_shop_name"
+        android:layout_toLeftOf="@id/iv_arr"
+        android:layout_toStartOf="@id/iv_arr"
+        android:textColor="@color/text_gray"
+        android:textSize="@dimen/text_size_normal"
+        android:text="@string/order_time_"/>
+    <TextView
+        android:id="@+id/tv_voucher"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_order_time"
+        android:textColor="@color/text_gray"
+        android:textSize="@dimen/text_size_normal"
+        android:text="@string/voucher"/>
+</RelativeLayout>
